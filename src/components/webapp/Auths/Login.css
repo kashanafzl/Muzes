@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Quicksand:wght@400;500&family=Raleway:wght@300;400;600&display=swap');
+
+#del{
+    /* height: 100vh; */
+    background: #EBEBEB;
+  
+}
+
+
+
+.muzeslogo{
+    width: 140px;
+    height: 53.44px;
+    margin-top: 50px;
+}
+
+.muzesheading{
+    
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.muzespara{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9A9A9A;
+}
+
+.inputfield{
+    border: none;
+    /* padding: 10px 120px; */
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+   display: flex;
+   
+}
+
+.loginbutton{
+    background-color: #FEDA76;
+    color: #383942;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.lastborder{
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #EBEBEB;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 100%;
+
+    
+}
+
+.googlelogo{
+    width: 24px;
+    height: 24px;
+
+}
+
+.lastpara2{
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-bottom: 0;
+    margin-top: 2px;
+ 
+  
+}
+
+.labell{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.lastline{
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.forgetpara{
+    justify-content: end;
+    display: flex;
+}
+
+.loginpic{
+    width: 80%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+
+@media screen and (max-width: 500px){
+    .loginpic{
+        
+           display: none;
+           height: 100vh;
+    }
+    #del{
+        background-color: #EBEBEB;
+        height: 100vh;
+    }
+}

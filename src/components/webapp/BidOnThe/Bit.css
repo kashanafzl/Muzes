@@ -1,0 +1,400 @@
+.del2 {
+    background-color: #EBEBEB;
+    height: 100vh;
+}
+
+.muzes2logo {
+    height: 40px;
+    width: 120px;
+    margin-top: 15px;
+
+}
+
+#cen{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+   
+}
+
+.userNavpic {
+    height: 40px;
+    width: 40px;
+}
+
+/* 
+#flexdani{
+    display: flex;
+} */
+
+#daniflex {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+    align-items: center;
+
+}
+
+.danip {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cardcenter {
+    
+    background-color: #fff;
+    height: 80vh;
+    width: 40%;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0px 18px 50px rgba(54, 59, 69, 0.03);
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 85px; */
+}
+
+.headbid {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.lorempara {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9A9A9A;
+}
+
+.leftt {
+    text-align: left;
+}
+
+.labee {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+.inpute {
+    background-color: #FBFBFB;
+    border: none;
+    width: 480px;
+    height: 48px;
+    margin-left: 40px;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.lastbtn {
+    background: #F29644;
+    border: none;
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    align-items: center;
+    padding: 12px 24px;
+    color: #fff;
+    margin-top: 40px;
+
+}
+
+.arrowicon{
+    height: 25px;
+    width: 28px;
+}
+
+
+
+
+@media screen and (max-width: 1320px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width: 1055px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 330px;
+    }
+    .lastbtn{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 888px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 570px;
+    }
+
+    .headbid {
+        font-size: 30px;
+    }
+    .cardcenter{
+        text-align: left;
+        float: left;
+        margin-left: 85px;
+        padding-left: 20px;
+        height: 100vh;
+        width: 80%;
+        margin-top: 150px;
+     
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width:500px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width:500px;
+    }
+
+    .headbid {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 450px;
+    }
+
+    .headbid {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 400px;
+    }
+    .headbid {
+        font-size: 20px;
+        padding-left: 38px;
+    }
+    .lorempara{
+        font-size: 12px;
+        padding-left: 38px;
+    }
+
+    .lastbtn {
+        padding: 12px 24px;
+        font-size: 14px;
+        margin-left: 38px;
+        margin-top: 12px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 380px;
+    }
+
+    .headbid {
+        font-size: 20px;
+        padding-left: 38px;
+    }
+    .lastbtn{
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+    .lorempara{
+        font-size: 12px;
+        padding-left: 38px;
+    }
+
+    .lastbtn {
+        padding: 12px 24px;
+        font-size: 14px;
+        margin-left: 38px;
+        margin-top: 12px;
+    }
+
+
+    /* .cardcenter{
+        text-align: left;
+        float: left;
+        margin-left: 20px;
+        padding-left: 20px;
+        height: 50vh;
+        width: 80%;
+    } */
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 120px;
+    }
+    .headbid {
+        font-size: 16px;
+    }
+    .lorempara{
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width: 780px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 300px;
+    }
+    .cardcenter {
+        text-align: left;
+        float: left;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 466px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 270px;
+    }
+    .cardcenter {
+        text-align: left;
+        float: left;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 250px;
+    }
+    .cardcenter {
+        text-align: left;
+        float: left;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+   .del2{
+    height: 160vh;
+   }
+}
+
+@media screen and (max-width: 400px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 200px;
+    }
+    .cardcenter {
+        text-align: left;
+        float: left;
+        margin-left: 10px;
+    }
+    .del2{
+        height: 160vh;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 170px;
+    }
+}
+
+
+@media screen and (max-width: 315px) {
+
+    .inpute {
+        background-color: #FBFBFB;
+        border: none;
+        width: 150px;
+    }
+}
+

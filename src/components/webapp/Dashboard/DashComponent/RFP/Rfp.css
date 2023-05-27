@@ -1,0 +1,121 @@
+.rfpCard {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.buyer_Info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buyer_Info .buyer_avatar img {
+    width: 40px;
+}
+
+.More_Info .more_ svg {
+    font-size: 25px;
+}
+
+.time_Created.rfp_vendor {
+    display: flex;
+    color: var(--textDim);
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.clckTime span {
+    font-size: 12px;
+    font-family: 'QuickSand';
+}
+
+.resultText.matching span {
+    background-color: var(--btnColor1);
+}
+.resultText.discovery span {
+    background-color: var(--btnColor2);
+}
+.resultText.verified span {
+    background-color: var(--btnColor3);
+}
+.resultText.deal span {
+    background-color: var(--btnColor4);
+}
+.rfp_Desc p.rfp_Text {font-size: 14px;font-family: 'Quicksand';font-weight: 400;}
+
+.resultText span {
+    font-size: 12px;
+    font-family: 'Quicksand';
+    padding: 6px 12px;
+    border-radius: 100px;
+    color: var(--white);
+}
+
+
+.rfpSec_Head.row, .rfpSec_time.row {
+    margin-bottom: 5px;
+    align-items: center;
+
+}
+
+
+.rfp_name span {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Quicksand';
+}
+
+.state_Head .state_indicate {
+    border-radius: 100px;
+    display: block;
+    width: 10px;
+    height: 10px;
+}
+
+span.state_indicate.matching {
+    background-color: var(--btnColor1);
+}
+
+.state_Head h5 {
+    margin: 0;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Quicksand';
+    font-weight: 600;
+}
+.state_Head {
+    display: flex;
+    align-items: center;
+    gap:8px;
+    margin-bottom: 10px;
+}
+
+.dashHead_Text h2 {
+    font-size: 28px;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.vendor_dash.container-fluid {
+    margin-top: 10px;
+}
+
+.rfpSec_result.row {
+    margin-bottom: 15px;
+}
+span.state_indicate.discovery {
+    background-color: var(--btnColor2);
+}
+span.state_indicate.verified {
+    background-color: var(--btnColor3);
+}
+span.state_indicate.deal {
+    background-color: var(--btnColor4);
+}
+
+
+

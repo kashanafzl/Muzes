@@ -1,0 +1,28 @@
+
+#inputid{
+    margin-top: 15px;
+}
+
+#mainsecnav{
+   padding-left: 35px;
+}
+
+#inputser{
+border: 1px solid green;
+border: none;
+width: 50%;
+padding: 10px;
+border-radius: 8px;
+font-family: 'Quicksand', sans-serif;
+font-weight: 700;
+font-size: 14px;
+outline: none;
+}
+div#maindiv {
+    padding-left: 20%;
+}
+
+.bellicon{
+    height: 30px;
+    width: 30px;
+}

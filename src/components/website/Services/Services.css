@@ -1,0 +1,45 @@
+
+
+.flexiconandh6{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.frame{
+    width: 500.71px;
+    height: 480.31px;
+
+}
+
+.icon1{
+    height: 25px;
+    width: 30px;
+
+  
+}
+
+.headingsmall{
+    padding-left: 20px;
+    margin-bottom: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.headingsmallparagraph{
+    padding-left: 20px;
+    margin-top: 5px;
+    color: #0B141F;
+    font-family: 'Raleway' , sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.flexiconandh61{
+    padding-top: 40px;
+}

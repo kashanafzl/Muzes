@@ -1,0 +1,64 @@
+.main_Sidebar {
+    height: 100%;
+    padding: 20px;
+    width: 20%;
+    background-color: var(--white);
+    position: fixed;
+}
+
+.sidebar_Links {
+    margin-top: 24px;
+}
+
+ul.rightSidebar_links {
+    padding: 0px;
+    list-style: none;
+}
+
+ul.rightSidebar_links li {
+    margin-bottom: 15px;
+}
+
+ul.rightSidebar_links a.single_Link {
+    align-items: center;
+    padding: 11px 10px;
+    display: flex;
+    gap: 6px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+ul.rightSidebar_links li svg,
+.signoutIcon svg {
+    font-size: 21px;
+}
+
+a.single_Link.active {
+    background-color: var(--yellow);
+    color: var(--textColor);
+}
+
+a.single_Link {
+    color: var(--textDim);
+}
+
+ul.rightSidebar_links a.single_Link:hover {
+    color: var(--textColor);
+}
+
+.signoutBtn .sign_out {
+    padding: 11px 10px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: var(--textDim);
+}

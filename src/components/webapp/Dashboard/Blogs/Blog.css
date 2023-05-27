@@ -1,0 +1,102 @@
+
+
+    #card1{
+        
+    background: #FFFFFF;
+    box-shadow: 0px 18px 25px rgba(54, 59, 69, 0.03);
+    border-radius: 10px;
+    border: none;
+    }
+    
+    #blogpics{
+
+        width: 280px;
+        height: 170px;
+        object-fit: cover;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .blogheading{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        margin-top: 20px;
+        padding-left: 27px;
+    }
+    
+
+    #blogcontainer{
+        margin-top: 50px;
+        padding-left: 37px;
+    }
+
+    #doticon{
+        margin-top: -60px;
+        height: 30px;
+        width: 30px;
+    }
+
+ 
+
+    .blogh1{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: #484E5C;
+        padding-top: 5px;
+        padding-right: 25px;
+    }
+
+    .blogp{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        color: #5E6778;
+        padding-left: 15px;
+    }
+
+    .bloglastp{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #5E6778;
+        padding-left: 15px;
+    }
+
+    .blogimg{
+        height: 100px;
+        width: 100px;
+        margin-top: -15px;
+        margin-left: 0px;
+    }
+
+    .blogbutton{
+     
+        border: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lastbtnofblog{
+        border: none;
+        background:var(--yellow);
+        box-shadow: 0px 18px 31px rgba(236, 163, 98, 0.15);
+        border-radius: 8px;
+        color: #363B45;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 10px;
+        margin-left: 50px;
+    }
+
+
+
+
+    @media screen and (max-width: 580px) {
+        .lastbtnofblog{
+            margin-left: 2px;
+        }
+      }

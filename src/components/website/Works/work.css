@@ -1,0 +1,200 @@
+
+.fstsec{
+    background-color: #FBFBFB;
+
+    /* height: 100vh; */
+ 
+}
+.work{
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 70px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+}
+.workCard{
+    display: flex;
+    align-items: center;
+}
+img#video{
+    width: 100%;
+}
+
+.arrowline2{
+    border: 1px solid red;
+}
+.home{
+    width: 78px;
+    height: 56px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.home2{
+    width: 59px;
+    height: 67px;
+}
+
+.home3{
+    width: 74px;
+    height: 78px;
+}
+
+#home123{
+    margin-top: 50px;
+    width: 88px;
+    height: 60px;
+    object-fit: cover;
+}
+
+
+#arrowline{
+
+    position: relative;
+    z-index: 9999;
+    width: 180px;
+    margin-left: -50px;
+    margin-top: -150px;
+
+}
+
+#arrowline2{
+
+    position: relative;
+    z-index: 9999;
+    width: 180px;
+    margin-top: -140px;
+    transform: translateX(-55px);
+
+ }
+
+.flexxx{
+    display: flex;
+}
+
+.card-title{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.card-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#card{
+    background-color: #fff;
+    width: 25%;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 70px;
+    border-radius: 10px;
+ 
+}
+#card:hover{
+    box-shadow: 0px 6px 21px  rgb(247, 244, 244);
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 0px 6px 21px  rgb(247, 244, 244);
+    cursor: pointer;
+}
+
+.learnmore{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 20px;
+    margin-bottom: 4px;
+}
+
+#rightarrow{
+   
+    margin-left: 10px;
+    color: #4F4F4F;
+
+}
+
+.arrow{
+    display: flex;
+    height: 25px;
+    width: 25px;
+}
+
+.arrowflex{
+    display: flex;
+}
+/* .video{
+  
+    height: 700px;
+    text-align: center;
+    
+} */
+
+
+@media screen and (max-width: 1000px){
+
+    #arrowline {
+      display: none;
+    }
+    #arrowline2 {
+        display: none;
+      }
+   
+}
+
+
+.video{
+    width: 100%;
+    position: relative;
+}
+
+
+
+.playicon{
+    font-size: 150px;
+    color: gainsboro;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+
+
+
+/* 
+.play-btn{
+    position: relative;
+  
+}
+
+.playicon{
+    font-size: 80px;
+    position: absolute;
+    top: 10;
+    right: 50;
+
+} */
+/* 
+.playicon{
+    position: absolute;
+    margin-right: 50%;
+    font-size: 80px;
+    border: 3px solid red;
+} */
