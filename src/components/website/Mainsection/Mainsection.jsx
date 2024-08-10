@@ -93,7 +93,8 @@ export default function Mainsection() {
                                
                             
                                 <div class="typewriter5">
-                                <p className='paraanimation'> No more cold outreach Meet decision makers faster </p>
+                                <p className='paraanimation'> No more cold outreach Meet decision <br />
+                                 makers faster </p>
                                 </div>
 
                                 <div class="typewriter6">
@@ -111,7 +112,7 @@ export default function Mainsection() {
                                 </div>
 
                                 <div class="typewriter9">
-                                <p className='paraanimation'> Increase transparency on buyer’s requirements</p>
+                                <p className='paraanimation'> Increase transparency on buyer’s requirements.</p>
                                 </div>
 
 
