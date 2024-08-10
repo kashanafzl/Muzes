@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kashanafzl.github.io/Muzes",
+"homepage": "https://kashanafzl.github.io/Muzes",
+
 
   "scripts": {
     "predeploy": "npm run build",

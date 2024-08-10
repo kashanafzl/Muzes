@@ -21,7 +21,7 @@ export default function Business() {
                 <div id='flexsection'  className='container mt-5'>
                     <div className='row mx-3  justify-content-center align-items-center'>
                         <div className="card mx-2 my-3" style={{ width: '20rem', border: 'none', }}>
-                            <img id='home1234' className='img-fluid home' src={home} className="card-img-top" alt="..." />
+                        <img id='home1234' className='img-fluid home' src={home} alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Vendor</h5>
                                 <p className="card-text">Lorem Ipsum
